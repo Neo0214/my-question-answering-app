@@ -1,5 +1,5 @@
 # my-question-answering-app
-
+This is the frontend of ASR curriculum final assignment. The backend is at https://github.com/Neo0214/smart-speaker 
 ## Project setup
 ```
 npm install
