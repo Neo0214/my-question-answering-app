@@ -1,0 +1,23 @@
+/* src/assets/styles.css */
+/* src/assets/main.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* 选择一个更好的字体 */
+    background-color: #ecf0f1; /* 设置一个背景颜色 */
+    color: #333;
+  }
+  
+h1 {
+    color: #2c3e50; /* 标题颜色 */
+}
+
+  /* 其他全局或特定组件的样式 */
+/* src/assets/main.css */
+@media (max-width: 600px) {
+    .question-input input,
+    .question-input button {
+      width: 90%; /* 小屏设备上的按钮和输入框宽度 */
+    }
+}
+  

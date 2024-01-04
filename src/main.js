@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+// src/main.js
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
 
-createApp(App).mount('#app')
+// 创建并挂载根实例。
+createApp(App).use(router).mount('#app');
